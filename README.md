@@ -7,8 +7,10 @@ Bookshelf is an online platform designed to sell books in various formats, inclu
 - [Features](#features)
 - [Technologies](#technologies)
 - [Usage](#usage)
-- [API Documentation](#api-documentation)
+- [API Endpoints](#api-endpoints)
 - [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 - **User Profile and Account Management**: Users can create accounts, log in, and manage personal details, including name, address, and order history.
@@ -52,7 +54,7 @@ Bookshelf is an online platform designed to sell books in various formats, inclu
 - **Manage Orders**: After purchasing, view your order status in your profile section.
 
 
-## API Documentation
+## API Endpoints
 
 The Bookshelf project provides a REST API that can be used to manage books, users, orders, and more. Below is an overview of key endpoints:
 
@@ -79,7 +81,6 @@ The Bookshelf project provides a REST API that can be used to manage books, user
 - **PUT** `/api/orders/{id}`: Update an order (e.g., change status, admin only).
 
 
-
 ## Deployment
 
 The Bookshelf project is deployed to the following URLs:
@@ -88,5 +89,15 @@ The Bookshelf project is deployed to the following URLs:
 - **Frontend**: [https://sda-3-online-fe-repo-szn0.onrender.com](https://sda-3-online-fe-repo-szn0.onrender.com)
 
 You can access the live version of the bookstore through these links.
+
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
+
 
 
