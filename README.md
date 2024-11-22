@@ -5,6 +5,7 @@ Bookshelf is an online platform designed to sell books in various formats, inclu
 
 ## Table of Contents
 - [Features](#features)
+- [Admin Management](#admin-management)
 - [Technologies](#technologies)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
