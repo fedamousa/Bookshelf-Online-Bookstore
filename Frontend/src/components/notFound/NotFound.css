@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../images/bg5.jpg'); 
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif; 
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .error-code {
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .error-message {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #FEFAE0;
+  }
+  
+  .error-submessage {
+    font-size: 1.2rem;
+    color: #FEFAE0;
+    margin-bottom: 20px;
+  }
+  
+  .back-to-catalog {
+    font-size: 1rem;
+    color: #FEFAE0; 
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #547050;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .back-to-catalog:hover {
+    background-color: #547050;
+    color: #fff;
+  }
+  

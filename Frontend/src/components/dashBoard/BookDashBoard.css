@@ -1,0 +1,79 @@
+.book-dashboard {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 20px !important;
+    min-height: 100vh !important;
+    background: linear-gradient(135deg, #f3eece 50%, #CCD5AE 100%) !important;
+    justify-content: center !important;
+  
+    
+  }
+  
+  .dashboard-title {
+    margin-top: 200px !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: #333 !important;
+    margin-bottom: 20px !important;
+    text-align: left !important;
+  }
+  
+  .create-book-button {
+    background-color: #547050 !important;
+    color: white !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+  }
+  
+  .table-container {
+    max-width: 1000px !important;
+    width: 100% !important;
+    margin-top: 20px !important;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .MuiTableCell-root {
+    font-size: 16px !important;
+    color: #333 !important;
+    padding: 12px !important;
+    vertical-align: middle !important; 
+  }
+  
+  .MuiTableCell-head {
+    background-color: #547050 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    text-align: center !important;
+  }
+  
+  .actions-cell {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    vertical-align: middle !important;
+  }
+  
+  .popover-content {
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+  
+  .popover-content .MuiTextField-root,
+  .popover-content .MuiFormControl-root {
+    width: 100% !important;
+  }
+  
+  .add-book-button {
+    background-color: #547050 !important;
+    color: white !important;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+  }
+  
+  .add-book-button:hover {
+    background-color: #456341 !important;
+  }
+  

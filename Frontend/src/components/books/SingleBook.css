@@ -1,0 +1,68 @@
+.bookCard {
+  width: 180px !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  /* justify-content: space-between !important; */
+  position: relative !important;
+  
+}
+
+.bookCard img {
+  width: 100% !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  border-radius: 4px !important;
+  margin-bottom: 10px !important;
+}
+
+.bookCard .book-author {
+  font-size: 12px !important;
+  color: #666 !important;
+  margin: 4px 0 !important;
+}
+
+.bookCard .book-title {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  color: #333 !important;
+  margin: 4px 0 !important;
+}
+
+.bookCard .book-price {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #547050 !important;
+  margin: 6px 0 !important;
+}
+
+.add-to-cart-btn {
+  background-color: #547050 !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  border-radius: 4px !important;
+  text-transform: none !important;
+  margin-top: 8px !important;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #456341 !important;
+}
+
+/* Bookmark icon in the top-right corner */
+.bookmark-icon {
+  position: absolute !important;
+  top: 8px !important;
+  right: 8px !important;
+  color: #547050 !important;
+}
+
+.bookmark-icon:hover {
+  color: #456341 !important;
+}

@@ -1,0 +1,59 @@
+
+.order-id-cell,
+.user-id-cell,
+.date-created-cell,
+.status-cell,
+.items-cell,
+.total-price-cell {
+  padding: 8px !important;
+  font-size: 16px !important;
+  color: #333 !important;
+  text-align: left !important;
+  vertical-align: middle !important; 
+}
+
+
+.status-cell {
+  width: 120px !important; 
+  text-align: center !important;
+}
+
+.order-items {
+  font-size: 14px !important;
+  color: #555 !important;
+  margin-bottom: 4px !important;
+}
+
+
+.order-price {
+  font-weight: bold !important;
+  color: #333 !important;
+}
+
+
+.status-cell .MuiSelect-root {
+  font-size: 14px !important;
+  color: #333 !important;
+}
+
+.MuiSelect-outlined {
+  border-radius: 4px !important;
+}
+
+.MuiMenuItem-root {
+  font-size: 14px !important;
+  color: #333 !important;
+}
+
+.MuiSelect-icon {
+  color: #333 !important; 
+}
+
+
+.MuiMenuItem-root:hover {
+  background-color: #FAEDCD !important;
+}
+
+.MuiSelect-outlined:hover {
+  border-color: #547050 !important;
+}

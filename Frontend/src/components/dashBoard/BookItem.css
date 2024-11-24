@@ -1,0 +1,47 @@
+
+.book-id-cell,
+.book-title-cell,
+.book-author-cell,
+.book-price-cell,
+.book-stock-cell,
+.book-format-cell,
+.book-category-cell,
+.book-actions-cell {
+  padding: 8px !important;
+  font-size: 16px !important;
+  color: #333 !important;
+  vertical-align: middle !important;
+  text-align: center !important; 
+}
+
+
+.book-actions-cell {
+  text-align: center !important;
+  width: 100px !important; 
+}
+
+
+.book-item-image {
+  width: 50px !important;
+  height: auto !important;
+  border-radius: 4px !important;
+  object-fit: cover !important;
+}
+
+
+.delete-button {
+  color: #e57373 !important;
+}
+
+.delete-button:hover {
+  color: #d32f2f !important;
+}
+
+
+.update-button {
+  color: #547050 !important;
+}
+
+.update-button:hover {
+  color: #456341 !important;
+}

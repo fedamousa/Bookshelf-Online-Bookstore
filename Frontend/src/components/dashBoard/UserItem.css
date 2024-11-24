@@ -1,0 +1,20 @@
+
+.user-id-cell,
+.user-email-cell,
+.user-name-cell,
+.user-phone-cell,
+.user-role-cell,
+.user-actions-cell {
+  padding: 8px !important;
+  font-size: 16px !important;
+  color: #333 !important;
+}
+
+
+.delete-button {
+  color: #e57373 !important;
+}
+
+.delete-button:hover {
+  color: #d32f2f !important;
+}

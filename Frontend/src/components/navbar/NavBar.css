@@ -1,0 +1,111 @@
+:root {
+  --primary-color: #333;
+  --accent-color: #8b5e34;
+  --hover-background-color: rgba(250, 237, 205, 0.5);
+  --icon-color: #547050;
+  --font-family: 'Helvetica Neue', sans-serif;
+}
+
+.Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 20px 0;
+  font-family: var(--font-family);
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-image {
+  height: 150px;
+  width: auto;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links ul li {
+  display: inline-block;
+}
+
+.nav-links ul li a {
+  color: inherit;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.nav-links ul li a:hover {
+  color: var(--accent-color);
+  background-color: var(--hover-background-color);
+}
+
+.MuiBadge-root {
+  margin-left: -10px;
+}
+
+.MuiBadge-root .MuiBadge-badge {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.navbar-icon {
+  color: var(--icon-color) !important;
+  font-size: 1.5rem;
+}
+
+.MuiMenuItem-root {
+  font-size: 1rem !important;
+  color: var(--primary-color) !important;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: rgba(84, 112, 80, 0.1) !important;
+  color: var(--icon-color) !important;
+}
+
+.MuiMenuItem-root + .MuiMenuItem-root {
+  margin-top: 5px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-links ul {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    margin-bottom: 15px;
+  }
+}

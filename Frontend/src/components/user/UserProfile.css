@@ -1,0 +1,65 @@
+.profile-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 100vh !important;
+  background: linear-gradient(135deg, #f3eece 50%, #CCD5AE 100%) !important;
+}
+
+.profile-form {
+  background-color: #ffffff !important;
+  padding: 40px !important;
+  border-radius: 20px !important;
+  width: 100% !important;
+  max-width: 400px !important;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2) !important;
+  text-align: center !important;
+  margin: 200px !important;
+}
+
+.profile-avatar {
+  color: #547050 !important;
+  margin: 30px !important;
+}
+
+.profile-info {
+  width: 100% !important;
+}
+
+.profile-info .MuiTextField-root {
+  margin-bottom: 15px !important;
+}
+
+.button-container {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 15px !important; /* Space between buttons */
+  width: 100% !important;
+  align-items: center !important;
+}
+
+.edit-save-btn {
+  background-color: #547050 !important;
+  color: white !important;
+  font-weight: bold !important;
+  width: 100% !important;
+}
+
+.order-history-btn,
+.logout-btn {
+  background-color: #547050 !important;
+  color: white !important;
+  width: 100% !important;
+}
+
+.order-history-btn:hover,
+.edit-save-btn:hover,
+.logout-btn:hover {
+  background-color: #CCD5AE !important;
+}
+
+.order-history-btn a,
+.logout-btn a {
+  color: white !important;
+  text-decoration: none !important;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  background: linear-gradient(135deg, #f3eece 50%, #CCD5AE 100%) !important;
+   font-family: 'Exo 2', sans-serif !important;
+
+}
+
+.bookList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 100%;
+ justify-items: center;
+ padding: 10px 10px !important;
+ margin-top: 60px;
+
+}
+
+.book-list-header {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-image: url('../../images/bg4.jpg'); 
+  background-size: cover !important;
+  background-position: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-bottom: 40px;
+}
+
+
+.quote-overlay {
+  position: absolute;
+  background-color: rgba(243, 228, 228, 0.4) !important; /* Dark overlay */
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 20px !important;
+}
+
+.quote-overlay p {
+  font-size: 25px !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  line-height: 1.5 !important;
+  max-width: 80% !important;
+  margin: 0 !important;
+  font-family: 'Exo 2', sans-serif !important;
+}
+
+.form-container {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin-bottom: 20px !important;
+  background-color: #f3eece !important;
+  margin: 0 auto !important;
+  width: 97%;
+  height: 100px;
+  padding: 20px;
+  
+  justify-content: space-between;
+}
+
+.form-container h3 {
+  font-size: 40px;
+  font-family: 'Exo 2', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  color: #547050;
+}
+
+
+.form-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ 
+}
+
+
+.form-container .MuiTextField-root {
+  width: 200px !important;
+}
+
+.form-container .MuiButton-root {
+  margin-top: 15px !important;
+}

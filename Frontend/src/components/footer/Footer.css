@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+.footer {
+    background-color: #f3eece; 
+    color: #333; 
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif; 
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+  }
+  
+  .footer-section h2 {
+    font-size: 1.5rem;
+    color: #547050; 
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section a {
+    font-size: 0.9rem;
+    color: #283618;
+    text-decoration: none;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section .social-icons a {
+    font-size: 1.2rem;
+    color: #333; 
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .footer-section .social-icons a:hover {
+    color: #606C38; 
+  }
+  
+  .logo {
+    height: 200px; 
+    width: auto;
+    display: block;
+  }
+  
+  .footer-bottom {
+    background-color: #547050; 
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0.8rem;
+  }
+  
+  .footer-bottom a {
+    color: #D4A373; 
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  

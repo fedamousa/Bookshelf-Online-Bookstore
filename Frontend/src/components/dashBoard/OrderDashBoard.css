@@ -1,0 +1,27 @@
+.order-dashboard {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 20px !important;
+  min-height: 100vh !important;
+  background: linear-gradient(135deg, #f3eece 50%, #CCD5AE 100%) !important;
+  justify-content: center !important;
+}
+
+
+.dashboard-title {
+  font-size: 24px !important;
+  font-weight: bold !important;
+  color: #333 !important;
+  margin-bottom: 20px !important;
+  text-align: center !important;
+  margin-top: 200px !important;
+}
+
+.table-container {
+  max-width: 1000px !important;
+  width: 100% !important;
+  margin-top: 20px !important;
+  overflow-x: auto !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1) !important;
+}

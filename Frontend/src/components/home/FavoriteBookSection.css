@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+.parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    width: 100%; 
+  }
+.favorite-book-section {
+    position: relative;
+    height: 400px;
+    background-image: url('../../images/bg2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    
+  }
+  
+ 
+  .favorite-book-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+  }
+
+  .favorite-book-overlay P {
+     
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 48px;
+
+  }
+  
+ 
+  .favorite-book-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .favorite-book-button:hover {
+    background-color: #ddd;
+  }
+  
+  .arrow-icon {
+    font-size: 1.2rem;
+  }
+  

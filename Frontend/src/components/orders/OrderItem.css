@@ -1,0 +1,45 @@
+.order-card {
+    width: 100% !important;
+    max-width: 600px !important;
+    margin: 10px 0 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .order-card .MuiCardContent-root {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+  
+  .order-id {
+    font-weight: bold !important;
+    color: #547050 !important;
+  }
+  
+  .order-total-price {
+    font-weight: bold !important;
+  }
+  
+  .order-card .MuiCardActions-root {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    padding: 0 16px 8px !important;
+  }
+  
+  .view-items-text {
+    margin-right: auto !important;
+    font-weight: bold !important;
+    color: #547050 !important;
+  }
+  
+  .expand-button {
+    color: #547050 !important;
+  }
+  
+  .expand-button:hover {
+    background-color: rgba(84, 112, 80, 0.1) !important;
+  }
+  

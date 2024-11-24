@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(135deg, #f3eece 50%, #CCD5AE 100%) !important;
+}
+
+
+:root {
+    --primary-color: #333 !important;
+       --background-color: #ffffff !important;
+   }
+
+.book-details-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    padding: 40px !important;
+    max-width: 1000px !important;
+    margin: auto !important;
+    background-color: var(--background-color) !important;
+    font-family: var(--font-family) !important;
+    margin-top: 200px !important;
+    margin-bottom: 40px !important;
+    border-radius: 5px !important;
+}
+.book-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.book-image {
+    max-width: 300px !important;
+    max-height: 400px !important;
+    margin-right: 20px !important;
+}
+
+.book-info {
+    max-width: 600px !important;
+    margin-top: 60px !important;
+}
+
+.book-title {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    color: var(--primary-color) !important;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.book-author {
+    font-size: 1.2rem !important;
+    color: #666 !important;
+    margin-top: 5px !important;
+}
+
+.book-details p {
+    font-size: 20px !important;
+    color: #444 !important;
+    margin-top: 25px !important;
+}
+
+.book-details p {
+    margin: 5px 0 !important;
+}
+
+.book-price {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: var(--accent-color) !important;
+    margin-top: 20px !important;
+}
+
+.book-actions {
+    margin-top: 20px !important;
+}
+
+.book-actions button {
+    background-color: #547050 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.book-actions button:hover {
+    background-color: #8b5e34 !important;
+}
+
+.back-link {
+    text-decoration: none !important;
+    color: var(--primary-color) !important;
+    margin-top: 20px !important;
+    display: inline-block !important;
+}
+
+.back-link:hover{
+    text-decoration: none !important;
+    color:#8b5e34 !important;
+    margin-top: 20px !important;
+    display: inline-block !important;
+}
