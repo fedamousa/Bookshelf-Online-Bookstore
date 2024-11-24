@@ -1,0 +1,34 @@
+# Ignore .env files (for sensitive data)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore .vscode and IDE config files
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore node_modules (for both Frontend and Backend if applicable)
+node_modules/
+
+# Ignore npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build and production files
+build/
+/dist/
+
+# Ignore appsettings for backend sensitive info
+Backend/appsettings.json
+Backend/appsettings.development.json
+
+# Ignore other folder-specific items
+Backend/bin/
+Backend/obj/
+Backend/Migrations/
