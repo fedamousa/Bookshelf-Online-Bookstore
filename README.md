@@ -1,4 +1,5 @@
-![header](https://github.com/user-attachments/assets/fae3a7cd-4590-446b-8185-a5270579a5f1)
+![header](https://github.com/user-attachments/assets/dde8bdc9-380f-4f9f-808a-2cd4d94479ea)
+
 # Bookshelf - Online Bookstore
 
 Bookshelf is an online platform designed to sell books in various formats, including ebooks, audiobooks, and traditional paper books. The application provides an intuitive user interface, allowing customers to browse, search, and purchase books. It also features user accounts, a shopping cart, and order management functionalities.
