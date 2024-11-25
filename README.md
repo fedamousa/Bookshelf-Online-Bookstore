@@ -4,10 +4,6 @@
 Bookshelf is an online platform designed to sell books in various formats, including ebooks, audiobooks, and traditional paper books. The application provides an intuitive user interface, allowing customers to browse, search, and purchase books. It also features user accounts, a shopping cart, and order management functionalities.
 
 ## Demo Video
-Click the image to watch the demo of Bookshelf - Online Bookstore:
-
-
-## Demo Video
 Watch the demo of Bookshelf - Online Bookstore:
 
 <a href="https://drive.google.com/file/d/1oMeMb31LonzyVlgIin0LNcweBg7azK1K/view?usp=sharing">
